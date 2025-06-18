@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.23" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>M-Admin</title><meta name="description" content="M-Admin是一款开源、免费、可商用的管理后台脚手架。">
+    <link rel="preload" href="/assets/style-yh7o4fEY.css" as="style"><link rel="stylesheet" href="/assets/style-yh7o4fEY.css">
+    <link rel="modulepreload" href="/assets/app-Bl2jDBPF.js"><link rel="modulepreload" href="/assets/404.html-CweyYtne.js">
+    <link rel="prefetch" href="/assets/index.html-BW1OuKz8.js" as="script"><link rel="prefetch" href="/assets/get-started.html-mhxDw7qs.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-4e1bae46><main class="page" data-v-4e1bae46><div vp-content data-v-4e1bae46><h1 data-v-4e1bae46>404</h1><blockquote data-v-4e1bae46>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-4e1bae46>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Bl2jDBPF.js" defer></script>
+  </body>
+</html>
