@@ -3,6 +3,7 @@ import { defineUserConfig } from "vuepress";
 import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
+  base:'/m-admin-doc',
   lang: "zh-CN",
   title: "M-Admin",
   description: "M-Admin是一款开源、免费、可商用的管理后台脚手架。",
