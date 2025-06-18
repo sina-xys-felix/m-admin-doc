@@ -47,5 +47,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 这是文档部署到的分支名称
+          github_token: ${{ secrets.GITHUB_TOKEN  }} # 输入生成的 secrect 的名字，如果名字为 GITHUB_TOKEN ，则为 secrets.GITHUB_TOKEN
           branch: gh-pages
           folder: docs/.vuepress/dist
