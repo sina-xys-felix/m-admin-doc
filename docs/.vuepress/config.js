@@ -9,6 +9,7 @@ export default defineUserConfig({
   head: [
     ["link", { rel: "icon", href: "/images/logo.png" }], // 这里也可以设置网站图标
   ],
+   base: process.env.NODE_ENV === 'production' ? '/m-admin-doc/' : '/',
   theme: defaultTheme({
     logo: "/images/logo.png",
 
