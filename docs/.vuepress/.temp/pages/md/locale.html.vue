@@ -17,12 +17,12 @@
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>使用</strong></p>
 <ul>
-<li>在 html 中使用，使用 vue 自带的<span style="color:#165DFF"> $t </span>。</li>
+<li>在 html 中使用，使用<span style="color:#165DFF"> $t </span>即可。</li>
 </ul>
 <div class="language-vue line-numbers-mode" data-highlighter="prismjs" data-ext="vue"><pre v-pre><code class="language-vue"><span class="line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>{{$t('settings.search')}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span>
 <span class="line"></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><ul>
-<li>在script中使用,手动引入 Vue i18n ，拿到 i18n 对象后，就可以使用 i18n 对象的 t 方法来获取。</li>
+<li>在script中使用,手动引入 Vue i18n,使用 i18n 对象的 t 方法来获取。</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js"><pre v-pre><code class="language-javascript"><span class="line"><span class="token keyword">import</span> <span class="token punctuation">{</span> i18n <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-i18n'</span></span>
 <span class="line"></span>

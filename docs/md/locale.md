@@ -23,11 +23,11 @@ export default {
 
 **使用**
 
-- 在 html 中使用，使用 vue 自带的<span style="color:#165DFF"> $t </span>。
+- 在 html 中使用，使用<span style="color:#165DFF"> $t </span>即可。
 ```vue 
     <div>{{$t('settings.search')}}</div>
 ```
-- 在script中使用,手动引入 Vue i18n ，拿到 i18n 对象后，就可以使用 i18n 对象的 t 方法来获取。
+- 在script中使用,手动引入 Vue i18n,使用 i18n 对象的 t 方法来获取。
 ```js 
 import { i18n } from 'vue-i18n'
 

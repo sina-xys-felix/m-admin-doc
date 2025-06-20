@@ -1,6 +1,6 @@
 <template><div><h1 id="网络请求" tabindex="-1"><a class="header-anchor" href="#网络请求"><span>网络请求</span></a></h1>
 <ul>
-<li>项目封装了 Axios 来做网络请求，包括请求错误处理、超时重试等功能。</li>
+<li>项目封装了 Axios 来做网络请求，包括请求错误处理、请求重试等功能。</li>
 <li>可以根据实际使用需求进行封装。</li>
 </ul>
 <p><strong>目录结构</strong></p>

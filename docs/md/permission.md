@@ -2,7 +2,7 @@
 
 ## 菜单权限
 
-如果菜单是后后端返回，在路由配置对 id 进行配置即可。
+如果菜单是后端返回，在路由配置对 id 进行配置即可。
 
 ```js
    {
@@ -42,7 +42,7 @@ function checkPermission(el: HTMLElement, binding: DirectiveBinding) {
   const userStore = useUserStore();
   const { roles } = userStore;
   if (typeof value === "string" || typeof value === "number") {
-    // 菜单Id变量根据项目进行调整
+    // 这里根据项目进行调整
     const hasPermission = settings.menuFromServer
       ? roles[0].operationIds.includes(value)
       : true;

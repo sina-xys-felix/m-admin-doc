@@ -1,6 +1,6 @@
 <template><div><h1 id="权限管理" tabindex="-1"><a class="header-anchor" href="#权限管理"><span>权限管理</span></a></h1>
 <h2 id="菜单权限" tabindex="-1"><a class="header-anchor" href="#菜单权限"><span>菜单权限</span></a></h2>
-<p>如果菜单是后后端返回，在路由配置对 id 进行配置即可。</p>
+<p>如果菜单是后端返回，在路由配置对 id 进行配置即可。</p>
 <div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js"><pre v-pre><code class="language-javascript"><span class="line">   <span class="token punctuation">{</span></span>
 <span class="line">        <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span></span>
 <span class="line">        <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'user'</span><span class="token punctuation">,</span></span>
@@ -31,7 +31,7 @@
 <span class="line">  <span class="token keyword">const</span> userStore <span class="token operator">=</span> <span class="token function">useUserStore</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
 <span class="line">  <span class="token keyword">const</span> <span class="token punctuation">{</span> roles <span class="token punctuation">}</span> <span class="token operator">=</span> userStore<span class="token punctuation">;</span></span>
 <span class="line">  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> value <span class="token operator">===</span> <span class="token string">"string"</span> <span class="token operator">||</span> <span class="token keyword">typeof</span> value <span class="token operator">===</span> <span class="token string">"number"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span>
-<span class="line">    <span class="token comment">// 菜单Id变量根据项目进行调整</span></span>
+<span class="line">    <span class="token comment">// 这里根据项目进行调整</span></span>
 <span class="line">    <span class="token keyword">const</span> hasPermission <span class="token operator">=</span> settings<span class="token punctuation">.</span>menuFromServer</span>
 <span class="line">      <span class="token operator">?</span> roles<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>operationIds<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span></span>
 <span class="line">      <span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">;</span></span>
