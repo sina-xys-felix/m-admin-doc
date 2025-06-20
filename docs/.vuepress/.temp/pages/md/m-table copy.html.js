@@ -1,5 +1,5 @@
-import comp from "D:/project/open-source/code/docs/docs/.vuepress/.temp/pages/guide.html.vue"
-const data = JSON.parse("{\"path\":\"/guide.html\",\"title\":\"快速上手\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{},\"filePathRelative\":\"guide.md\"}")
+import comp from "D:/project/open-source/code/docs/docs/.vuepress/.temp/pages/md/m-table copy.html.vue"
+const data = JSON.parse("{\"path\":\"/md/m-table%20copy.html\",\"title\":\"MTable 使用示例\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{},\"filePathRelative\":\"md/m-table copy.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

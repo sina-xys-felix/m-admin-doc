@@ -1,4 +1,4 @@
-<template><div><h1 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍"><span>介绍</span></a></h1>
+<template><div><h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍"><span>介绍</span></a></h2>
 <p>M-Admin 是一款基于 Vue3、TypeScript、Arco-design-vue 的轻量级后台管理框架，旨在为开发者提供一个快速、简洁、易用的后台管理系统。项目提供强大的 MTable 组件，可以在一定程度上为您节省了造轮子的时间，另外项目还封装了一些常用的组件、hooks、指令等。</p>
 <p><strong>文档</strong></p>
 <ul>

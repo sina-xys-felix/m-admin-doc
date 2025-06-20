@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/m-admin-doc/\",\"lang\":\"zh-CN\",\"title\":\"M-Admin\",\"description\":\"M-Admin是一款开源、免费、可商用的管理后台脚手架。\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"M-Admin\",\"description\":\"M-Admin是一款开源、免费、可商用的管理后台脚手架。\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/logo.png\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

@@ -1,5 +1,5 @@
-import comp from "D:/project/open-source/code/docs/docs/.vuepress/.temp/pages/guide.html.vue"
-const data = JSON.parse("{\"path\":\"/guide.html\",\"title\":\"快速上手\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{},\"filePathRelative\":\"guide.md\"}")
+import comp from "D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/locale.html.vue"
+const data = JSON.parse("{\"path\":\"/md/locale.html\",\"title\":\"国际化配置\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"git\":{},\"filePathRelative\":\"md/locale.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
