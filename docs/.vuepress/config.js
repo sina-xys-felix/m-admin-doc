@@ -9,7 +9,8 @@ export default defineUserConfig({
   head: [
     ["link", { rel: "icon", href: "/images/logo.png" }], // 这里也可以设置网站图标
   ],
-   base: process.env.NODE_ENV === 'production' ? '/m-admin-doc/' : '/',
+  base: "/",
+  //  base: process.env.NODE_ENV === 'production' ? '/m-admin-doc/' : '/',
   theme: defaultTheme({
     logo: "/images/logo.png",
 
@@ -37,8 +38,14 @@ export default defineUserConfig({
         children: [
           { text: "预览地址", link: "https://m-admin.cn" },
           { text: "Gitee源码", link: "https://gitee.com/sina_xys/m-admin" },
-          { text: "Github源码", link: "https://github.com/sina-xys-felix/M-Admin" },
-          { text: "更新日志", link: "https://github.com/sina-xys-felix/M-Admin/blob/main/changelog.md" },
+          {
+            text: "Github源码",
+            link: "https://github.com/sina-xys-felix/M-Admin",
+          },
+          {
+            text: "更新日志",
+            link: "https://github.com/sina-xys-felix/M-Admin/blob/main/changelog.md",
+          },
         ],
       },
     ],
@@ -66,8 +73,8 @@ export default defineUserConfig({
         ],
       },
       {
-        text:'组件教程',
-          children: [
+        text: "组件教程",
+        children: [
           "/md/m-table",
           "/md/m-form",
           "/md/m-tinymce",
