@@ -12,7 +12,7 @@
 **从 Gitee 上拉取**
 
 ```js
- git clone https://gitee.com/sina_xys/m-admin.git
+ git clone https://gitee.com/sina_xys/M-Admin.git
 ```
 
 **从 Github 上拉取**
