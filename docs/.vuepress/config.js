@@ -35,7 +35,7 @@ export default defineUserConfig({
       {
         text: "相关链接",
         children: [
-          { text: "预览地址", link: "https://sina-xys-felix.github.io/M-Admin/" },
+          { text: "预览地址", link: "https://m-admin.cn" },
           { text: "Gitee源码", link: "https://gitee.com/sina_xys/m-admin" },
           { text: "Github源码", link: "https://github.com/sina-xys-felix/M-Admin" },
           { text: "更新日志", link: "https://github.com/sina-xys-felix/M-Admin/blob/main/changelog.md" },

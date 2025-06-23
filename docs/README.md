@@ -8,7 +8,7 @@ actions:
     type: primary
 
   - text: 在线预览
-    link: https://sina-xys-felix.github.io/M-Admin/
+    link: https://m-admin.cn/login
     type: secondary
 
 features:
