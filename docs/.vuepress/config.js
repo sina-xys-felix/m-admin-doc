@@ -48,6 +48,10 @@ export default defineUserConfig({
           },
         ],
       },
+      {
+        text:'捐赠',
+        link:'/md/sponsor'
+      }
     ],
     sidebarDepth: 3, // 自动显示二级标题深度
     sidebar: [

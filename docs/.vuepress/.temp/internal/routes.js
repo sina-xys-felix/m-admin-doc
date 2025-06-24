@@ -16,6 +16,7 @@ export const routes = Object.fromEntries([
   ["/md/permission.html", { loader: () => import(/* webpackChunkName: "md_permission.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/permission.html.js"), meta: {"title":"权限管理"} }],
   ["/md/question.html", { loader: () => import(/* webpackChunkName: "md_question.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/question.html.js"), meta: {"title":"常见问题"} }],
   ["/md/route.html", { loader: () => import(/* webpackChunkName: "md_route.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/route.html.js"), meta: {"title":"路由、菜单"} }],
+  ["/md/sponsor.html", { loader: () => import(/* webpackChunkName: "md_sponsor.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/sponsor.html.js"), meta: {"title":""} }],
   ["/md/standard.html", { loader: () => import(/* webpackChunkName: "md_standard.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/standard.html.js"), meta: {"title":"项目代码规范"} }],
   ["/md/store.html", { loader: () => import(/* webpackChunkName: "md_store.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/store.html.js"), meta: {"title":"Store"} }],
   ["/md/tree.html", { loader: () => import(/* webpackChunkName: "md_tree.html" */"D:/project/open-source/code/github/m-admin-doc/docs/.vuepress/.temp/pages/md/tree.html.js"), meta: {"title":"目录结构"} }],
